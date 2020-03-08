@@ -23,7 +23,7 @@ For input parameters: firstName = Dan and  lastName= Brown, application would pr
  
  **What has been done:**
  
- I developed a maven application, you run it via console or you can execute the generated JAR file.
+ I developed a maven application, you run it via console or you can execute the generated JAR file. I tried to handle all the posiible exceptions and I provided the JUnit tests.
  Repository architecture :
  
   - ./application doc : you find in this directory the javadoc of this application
@@ -39,4 +39,8 @@ For input parameters: firstName = Dan and  lastName= Brown, application would pr
   - git clone https://github.com/BOUZAABIAM/authorsearch.git
   - cd authorsearch
   - cd out/artifacts/authorsearch_jar
-  - java -jar authorsearch.jar dan brown
+  - java -jar authorsearch.jar <AUTOHR_FIRST_NAME> <AUTHOR_LAST_NAME>
+  - Examples :
+    * java -jar authorsearch.jar Dan Brown
+    * java -jar authorsearch.jar dis fersg
+    * java -jar authorsearch.jar Dan
