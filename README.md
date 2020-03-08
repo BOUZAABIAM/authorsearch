@@ -40,7 +40,16 @@ For input parameters: firstName = Dan and  lastName= Brown, application would pr
   - cd authorsearch
   - cd out/artifacts/authorsearch_jar
   - java -jar authorsearch.jar <AUTOHR_FIRST_NAME> <AUTHOR_LAST_NAME>
-  - Examples :
+  
+  Examples :
     * java -jar authorsearch.jar Dan Brown
+    
+    ![](images_examples/exp1.JPG)
+    
     * java -jar authorsearch.jar dis fersg
+    
+    ![](images_examples/exp2.JPG)
+    
     * java -jar authorsearch.jar Dan
+    
+    ![](images_examples/exp3.JPG)
