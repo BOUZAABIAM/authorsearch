@@ -43,7 +43,7 @@ For input parameters: firstName = Dan and  lastName= Brown, application would pr
   
   Examples :
   
-    * java -jar authorsearch.jar Dan Brown
+   * java -jar authorsearch.jar Dan Brown
     
    ![](images_examples/exp1.JPG)
    
@@ -51,7 +51,7 @@ For input parameters: firstName = Dan and  lastName= Brown, application would pr
     
    ![](images_examples/exp2.JPG)
     
-    * java -jar authorsearch.jar Dan
+   * java -jar authorsearch.jar Dan
     
    ![](images_examples/exp3.JPG)
 
