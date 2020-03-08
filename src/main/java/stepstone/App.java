@@ -7,17 +7,28 @@ import stepstone.factoryPattern.Factory;
 
 import java.io.IOException;
 
-
+/**
+ * Main class for the application
+ */
 public class App
 {
-
+    /**
+     * Main of the application
+     * @param args
+     * @throws IOException
+     */
     public static void main(String[] args) throws IOException {
-
 
         App app = new App();
         app.runCMD(args);
 
     }
+
+    /**
+     * get Author first and last name and prepare the command to execute
+     * @param args
+     * @throws IOException
+     */
     private void runCMD(String[] args) throws IOException{
 
         Action action = new Action();
@@ -31,7 +42,9 @@ public class App
         }
     }
 
-
+    /**
+     * Helper : help the user to know better how to use the Application in case of error.
+     */
     private void helper(){
         System.out.println("");
         System.out.println("This Java application enables its users to search authors by first name and last name. " );

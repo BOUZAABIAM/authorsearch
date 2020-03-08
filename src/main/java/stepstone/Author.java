@@ -16,10 +16,24 @@ import java.net.HttpURLConnection;
 import java.net.URISyntaxException;
 import java.net.URL;
 
+/**
+ * The class Author
+ */
 public class Author implements AbstractFactoryPattern{
+    /**
+     * Author first name.
+     */
     private String FIRST_NAME;
+    /**
+     * Author last name.
+     */
     private String LAST_NAME;
 
+    /**
+     * The Author Constructor
+     * @param FIRST_NAME Author first name.
+     * @param LAST_NAME Author lasr name
+     */
     public Author(String FIRST_NAME, String LAST_NAME){
 
         this.FIRST_NAME = FIRST_NAME;
@@ -27,7 +41,11 @@ public class Author implements AbstractFactoryPattern{
     }
 
 
-
+    /**
+     * REST API for author search is http://www.penguinrandomhouse.biz/webservices/rest/#authors, parameter names for search are firstName and lastName correspondingly
+     * for author's first name and last name.
+     * @throws IOException
+     */
     public void runTheCommand() throws IOException {
         Authenticator.setDefault(new RHAuthenticator());
         URIBuilder b;

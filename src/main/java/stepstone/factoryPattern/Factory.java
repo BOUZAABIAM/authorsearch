@@ -5,10 +5,19 @@ import stepstone.Author;
 
 import java.io.IOException;
 
+/**
+ * Class Factory :  encapsulate the user command before execution
+ */
 public class Factory {
+
     private AbstractFactoryPattern instance;
 
-
+    /**
+     *
+     * @param args
+     * @return
+     * @throws IOException
+     */
     public AbstractFactoryPattern getInstance(String[] args) throws IOException {
 
 
