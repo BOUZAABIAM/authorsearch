@@ -20,3 +20,23 @@ For input parameters: firstName = Dan and  lastName= Brown, application would pr
  - 3446; BROWN, DAN; 68
  - 224942; BROWN, DAN; 0
  - 2182290; BROWN, DAN; 3
+ 
+ **What has been done:**
+ 
+ I developed a maven application, you run it via console or you can execute the generated JAR file.
+ Repository architecture :
+ 
+  - ./application doc : you find in this directory the javadoc of this application
+  - ./out/artifacts/authorsearch_jar/authorsearch.jar : the JAR file of the application
+  - ./src/main : source code
+  -./src/test : the junit tests are provided here
+ 
+ **How to run the application:**
+ 
+ To run this application, follow the next steps:
+ 
+  - open the terminal
+  - git clone https://github.com/BOUZAABIAM/authorsearch.git
+  - cd authorsearch
+  - cd out/artifacts/authorsearch_jar
+  - java -jar authorsearch.jar dan brown
