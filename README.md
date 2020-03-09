@@ -29,7 +29,7 @@ For input parameters: firstName = Dan and  lastName= Brown, application would pr
   - ./application doc : you find in this directory the javadoc of this application
   - ./out/artifacts/authorsearch_jar/authorsearch.jar : the JAR file of the application
   - ./src/main : source code
-  -./src/test : the junit tests are provided here
+  - ./src/test : the junit tests are provided here
  
  **How to run the application:**
  
